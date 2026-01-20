@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+*.env
+
+# VSCode
+.vscode/
+
+# Hugging Face cache
+*.cache/
+cache/
+
+# Data
+data/raw/*.conll
+data/raw/train_split.conll
+data/raw/valid.conll
+
+# Models
+models/
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
